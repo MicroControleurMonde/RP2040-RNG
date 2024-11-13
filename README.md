@@ -11,6 +11,7 @@
 7. **Testing Randomness**: Mentions statistical tests that can be used to evaluate the quality of randomness.
 8. **Diehard Test for Validation**:  Test reliably and validation.
 9. **Acknowledgements**: Credits any technologies or libraries used in the project.
+10. **Disclaimer**
 
 This project implements a **True Random Number Generator (TRNG)** using the **RP2040** microcontroller. The generator collects entropy from an **ADC** (Analog-to-Digital Converter) and mixes it with a **SHA-256** hashing function to produce high-quality random numbers. The randomness is further enhanced by using the **RP2040's RTC (Real-Time Clock)** for time-based entropy.
 
@@ -87,6 +88,8 @@ To perform a Diehard test reliably and validate the random number generator for 
 
 For example, for a sample of 10 million bits, you will need to generate approximately **156,250** 64-bit numbers.
 
+Diehard Tests results can be find int the **'diehard_sample_report.txt'** file
+
 ### Number of bits needed
 To generate 1 million bits, you will need to generate about:
 
@@ -98,3 +101,9 @@ $$
 
 The project is based on the **RP2040 microcontroller**, and its **MicroPython firmware**.  
 The entropy whitening is done using the **SHA-256 algorithm** from the **hashlib** library.
+
+## Disclaimer
+
+The code contained in this repository is provided “as is”, without any warranty of performance, accuracy or result. The author shall not be liable for any direct or indirect damages that may result from the use of this code, including, but not limited to, loss of data or interruption of service.
+
+Use of this code is entirely at your own risk. Please ensure that you fully understand the code before using it in a production environment or integrating it into your projects.
