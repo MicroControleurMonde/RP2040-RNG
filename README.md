@@ -102,6 +102,9 @@ $$
 The project is based on the **RP2040 microcontroller**, and its **MicroPython firmware**.  
 The entropy whitening is done using the **SHA-256 algorithm** from the **hashlib** library.
 
+Tested on an original Raspberry Pi Pico, a XIAO seed studio RP2040 and a Waveshare RP2040-Plus. 
+The code works perfectly on all three platforms, regardless of the ADC channel used. 
+
 ## Disclaimer
 
 The code contained in this repository is provided “as is”, without any warranty of performance, accuracy or result. The author shall not be liable for any direct or indirect damages that may result from the use of this code, including, but not limited to, loss of data or interruption of service.
