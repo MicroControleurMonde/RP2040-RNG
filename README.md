@@ -2,7 +2,7 @@
 
 ### Breakdown of Sections
 
-1. **Project Description**: Provides a high-level overview of what the project does, i.e., generating random numbers using the RP2040 and various entropy sources.
+1. **Project Description**: Generation of random numbers using the RP2040 and various entropy sources.
 2. **Features**: Lists the main features of the project, such as the use of ADC for entropy, SHA-256 whitening, and the use of RTC for additional randomness.
 3. **Requirements**: Specifies what hardware and software are needed.
 4. **Installation**: Provides steps for cloning the repository and uploading the files to the RP2040.
