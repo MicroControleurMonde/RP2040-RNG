@@ -92,6 +92,8 @@ To perform a Diehard test reliably and validate the random number generator for 
 For example, for a sample of 10 million bits, you will need to generate approximately **156,250** 64-bit numbers.
 
 Diehard test results (over 200,000 values) can be found in the file **'diehard_sample_report.txt '**.
+General results commennts  in the file **'diehard_sample_report.md '**.
+
 
 ### Number of bits needed
 To generate 1 million bits, you will need to generate about:
