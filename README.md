@@ -118,6 +118,12 @@ $$
 \frac{10^{6} \, \text{bits}}{64 \, \text{bits by number}} \approx 15625 \, \text{64-bit numbers}
 $$
 
+## Precautions of use
+
+Please consult the CAcert tests and analyses report before considering the use of this generator.
+
+[CAcert tests and analyses](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/CAcert_Analysys.md)
+
 ## Acknowledgements
 
 The project is based on the **RP2040 microcontroller**, and its **MicroPython firmware**.  
