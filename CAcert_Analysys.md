@@ -24,7 +24,7 @@ The results are shown below.
 
 ## Conclusion 
 
-- Metrics such as entropy (3.437706) are relatively modest for a hardware generator, meaning that it is not completely free of bias or does not achieve ideal levels of randomness.
+- Metrics such as entropy (3.437706) are relatively modest for a hardware generator, meaning that it is not completely free of bias or **does not achieve ideal levels of randomness**.
 
 - Its use in Cryptography, Authentication, Session Key generation is subject to caution.
 
