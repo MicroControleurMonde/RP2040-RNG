@@ -140,11 +140,13 @@ The Diehard test is a set of statistical tests used to evaluate the quality of a
 ### Analysis of specific tests
 
 - Basic tests such as diehard_birthdays, diehard_operm5, diehard_rank_32x32, etc. all passed, which is encouraging for the overall quality of the generator.
-
-- The rgb_bitdist test has a p-value very close to 1 (0.99998118) for k=4, indicating an excellent result. A p-value very close to 1 (such as 0.99998118) for k=4 indicates that the sequence passes the rgb_bitdist test for 4-bit runs, and there is no evidence of any non-random behavior in the distribution of these 4-bit runs. The sequence can be considered to exhibit good randomness for this particular test.
-
+ 
+- The rgb_bitdist test for entropy 4, where the p-value is 0.00001882, which is extremely low. This means that the test has failed and is **"WEAK"**. This test measures the distribution of bits in groups of bits over several positions and indicates an irregularity or systematic trend in the distribution of bits for that specific entropy.
+ 
 - The dab_bytedistrib test has a p-value of 0.23859982, which is slightly higher but still within the acceptance range.
+
+- On the whole, however, TRNG seems to be performing well.
 
 ### Conclusion
 
-In summary, these results indicate that the random number generator under test appears to function correctly according to the Diehard tests. All tests were passed, with p-values consistent with a uniform distribution. CAUTION: For critical applications requiring a high level of security, further tests could be considered.
+In summary, these results indicate that the random number generator under test appears to function correctly according to the Diehard tests. All tests were passed, with p-values consistent with a uniform distribution. **CAUTION: For critical applications requiring a high level of security, further tests could be considered.**
