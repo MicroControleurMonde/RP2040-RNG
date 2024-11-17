@@ -8,10 +8,11 @@
 4. **Installation**: Provides steps for cloning the repository and uploading the files to the RP2040.
 5. **Usage**: Details how to use the library and run the example script (generate_random.py).
 6. **How it Works**: Explains the steps involved in generating random numbers and how entropy is collected, mixed, and whitened.
-7. **Testing Randomness**: Mentions statistical tests that can be used to evaluate the quality of randomness.
-8. **Diehard Test for Validation**:  Test reliably and validation.
-9. **Acknowledgements**: Credits any technologies or libraries used in the project.
-10. **Disclaimer**
+7. **Performance and output**: calculation of the TRNG yield.
+8. **Testing Randomness**: Mentions statistical tests that can be used to evaluate the quality of randomness.
+9. **Diehard Test for Validation**:  Test reliably and validation.
+10. **Acknowledgements**: Credits any technologies or libraries used in the project.
+11. **Disclaimer**
 
 ## Project Description
 
@@ -74,6 +75,17 @@ The current Unix timestamp from the RP2040's RTC is used to further whiten the e
 
 ### 5. Output
 The final output is a 64-bit random number that is periodically generated and can be used in applications requiring randomness.
+
+## Performance and output
+
+Generating 100,000 random numbers (64 bits) and saving them.
+
+Elapsed time to generate 100000 random numbers: 424.00 seconds.
+
+**Random number generation rate: 1886.79 bytes per second.**
+
+Number of random numbers generated per second:
+(100'000/424) ≈ **235**
 
 ## Testing Randomness
 
