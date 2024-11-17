@@ -122,6 +122,12 @@ The entropy whitening is done using the **SHA-256 algorithm** from the **hashlib
 Tested on an original Raspberry Pi Pico, a XIAO seed studio RP2040 and a Waveshare RP2040-Plus. 
 The code works perfectly on all three platforms, regardless of the ADC channel used. 
 
+* Raspberry Pi Pico: MicroPython v1.23.0 on 2024-06-02; 
+* XIAO seed studio: MicroPython v1.22.1 on 2024-01-05;
+* Waveshare RP2040-Plus:  MicroPython ef518cbf2-dirty on 2023-03-24; 
+
+
+
 ## Disclaimer
 
 The code contained in this repository is provided “as is”, without any warranty of performance, accuracy or result. The author shall not be liable for any direct or indirect damages that may result from the use of this code, including, but not limited to, loss of data or interruption of service.
