@@ -11,8 +11,9 @@
 7. **Performance and output**: calculation of the TRNG yield.
 8. **Testing Randomness**: Mentions statistical tests that can be used to evaluate the quality of randomness.
 9. **Diehard Test for Validation**:  Test reliably and validation.
-10. **Acknowledgements**: Credits any technologies or libraries used in the project.
-11. **Disclaimer**
+10. **Precautions of use:** 
+11. **Acknowledgements**: Credits any technologies or libraries used in the project.
+12. **Disclaimer**
 
 ## Project Description
 
