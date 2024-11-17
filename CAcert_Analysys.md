@@ -20,11 +20,7 @@ The results are shown below.
 ## 6x8 Matrix Ranks: 0.000
 
 - 6x8 Matrix Ranks: 0.000.
-- This field is a more specific version of the previous analysis, but with a 6x8 matrix format. Again, 0.000 could indicate a lack of regularity or dependency between the values generated.
-
-## Minimum Distance: 0.000
-
--The minimum distance measures the separation between the sequences of numbers generated.
+- This field is a more specific version of the previous analysis, but with a 6x8 matrix format. 
 
 ## Conclusion 
 
@@ -32,7 +28,7 @@ The results are shown below.
 
 - Its use in Cryptography, Authentication, Session Key generation is subject to caution.
 
-- the following uses, on the other hand, should not pose any problems
+### The following uses, on the other hand, should not pose any problems
 * Statistical simulations and modelling
 * Software testing and validation
 * Games and lotteries
