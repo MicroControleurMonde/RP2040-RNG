@@ -1,1 +1,38 @@
- 
+https://www.fourmilab.ch/random/
+
+ent --  Calculate entropy of file.   
+By John Walker
+   http://www.fourmilab.ch/
+   January 28th, 2008
+
+#####################################################
+Test for RP2040-RNG
+#####################################################
+
+C:\Users\USER\Desktop\tempo\random>ent -c diehard_698813.txt
+Value Char       Occurrences     Fraction
+ 10              698813          0.049024
+ 48     0        1293222         0.090725
+ 49     1        1655521         0.116141
+ 50     2        1335385         0.093682
+ 51     3        1335789         0.093711
+ 52     4        1333758         0.093568
+ 53     5        1331891         0.093437
+ 54     6        1330645         0.093350
+ 55     7        1331420         0.093404
+ 56     8        1313522         0.092149
+ 57     9        1294417         0.090808
+
+Total:            14254383      1.000000
+
+Entropy = 3.437706 bits per byte.
+
+Optimum compression would reduce the size
+of this 14254383 byte file by 57 percent.
+
+Chi square distribution for 14254383 samples is 326365040.72, and randomly
+would exceed this value less than 0.01 percent of the times.
+
+Arithmetic mean value of data bytes is 50.3316 (127.5 = random).
+Monte Carlo value for Pi is 4.000000000 (error 27.32 percent).
+Serial correlation coefficient is -0.020419 (totally uncorrelated = 0.0). 
