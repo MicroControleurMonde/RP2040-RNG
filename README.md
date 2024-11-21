@@ -130,6 +130,11 @@ Please consult the CAcert tests and analyses report before considering the use o
 
 [CAcert tests and analyses](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/CAcert_Analysys.md)
 
+## Ent Tests
+[Ent sources](www.fourmilab.ch/random/)
+
+[Ent Report - Raw](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/Ent_Report_RP2040.tx)
+
 ## Acknowledgements
 
 The project is based on the **RP2040 microcontroller**, and its **MicroPython firmware**.  
