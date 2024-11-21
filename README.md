@@ -1,5 +1,7 @@
 # RP2040 True Random Number Generator (TRNG)
 
+[](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040.png)
+
 ### Breakdown of Sections
 
 1. **Project Description**: Generation of random numbers using the RP2040 and various entropy sources.
