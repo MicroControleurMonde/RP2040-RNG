@@ -1,6 +1,6 @@
 # RP2040 True Random Number Generator (TRNG)
 
-[](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040.png)
+![Image locale](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040-resizeimage2.png)
 
 ### Breakdown of Sections
 
