@@ -111,11 +111,11 @@ For example, for a sample of 10 million bits, you will need to generate approxim
 
 - Diehard test results (over 200,000 values) can be found in the file **'diehard_sample_report.txt '**.
 
-[Diehard_sample_report.txt](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/diehard_sample_report.txt)
+[Diehard sample report.txt](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/diehard_sample_report.txt)
   
 - General results comments  in the file **'diehard_sample_report.md '**.
 
-[Diehard Test for Validation](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/diehard_sample_report.md)
+[Diehard Test for Validation](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/diehard_sample_report.md)
 
 ### Number of bits needed
 To generate 1 million bits, you will need to generate about:
