@@ -6,7 +6,7 @@ https://www.cacert.at/random/
 
 The results are shown below.
 
-![CAcert results](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Result%20700'000%20cacert.at.png)
+![CAcert results](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/Result%20700'000%20cacert.at.png)
 
 ## Entropy (→8): 3.437706
 
